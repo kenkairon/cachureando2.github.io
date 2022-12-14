@@ -12,34 +12,52 @@
     </head>
     <body id="fondo">
       <header>
-          <img src="assets/img/Banner.png" class="logo" alt="logo">
+          <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-4"><img src="assets/img/Banner.png" class="logo" alt="logo"></div>
+              <div class="col-md-4"></div>
+          </div>
       </header>
       <!-- Sección menu de navegación -->
-      <section> 
+      <section class="col-12">
         <nav class="bg_blue">
           <div>
-            <ul class="menu_navegacion">
-              <li><a class="mover" href="index.html">INICIO</a></li>
-              <li><a class="mover" href="somos.html">QUIÉNES SOMOS</a></li>
-              <li><a class="mover" href="contacto.html">CONTACTO</a></li>
-            </ul> 
+            <ul class="menu_navegacion row">
+              <li class="col-md-2"><a class="mover" href="index.html">PRODUCTOS</a></li>
+              <li class="col-md-2"><a class="mover" href="somos.html">QUIÉNES SOMOS</a></li>
+              <li class="col-md-2"><a class="mover" href="contacto.html">CONTACTO</a></li>
+              <li class="col-md-5">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Buscar Productos" aria-label="Search">
+                  <button class="btn btn-primary my-2 my-sm-0 bi bi-search" type="submit">Buscar</button>
+                </form>
+              </li>
+            </ul>
           </div>
         </nav>
       </section>
-      <!-- Fin Sección menu de navegación -->
+      <!--Fin Sección menu de navegación -->
       <!--Sección de Formulario -->
-      <section class="fondo_formulario"> 
-        <article class="col-sm-4">
-            <h4>FORMULARIO DE CONTACTO</h4>
-            <form class="form_principal container-fluid">
-              <p class="block1">Nombre de Usuario</p>
-              <input type="text" name="txtUsuario" id="id_usuario" placeholder="Escriba su usuario">
-              <p class="block1">Correo</p>
-              <input type="email" name="txtEmail" id="id_correo" placeholder="Escriba su Correo">
-              <p class="block1">Mensaje</p>
-              <textarea  placeholder="Ingresa tu opinión o comentario." rows="7" id="id_comentario"></textarea><br>
-               <input type="submit" value="Enviar datos" class="btn btn-info">
-            </form>
+      <section class="fondo_formulario col-sm-6">
+        <article class="col-sm-12">
+          <div class="row">
+            <div class="col-md-12">
+              <h5>FORMULARIO DE CONTACTO</h5>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre de Usuario</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el usuario">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el correo">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn-success">Enviar</button>
+          </div>
+            
         </article>
       </section>
       <!-- Fin de Sección de Formulario -->  

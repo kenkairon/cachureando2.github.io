@@ -7,38 +7,42 @@
       <title>Cachureando.cl</title>
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="assets/css/media.css">
-       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     </head>
     <body id="fondo">
       <header>
-          <img src="assets/img/Banner.png" class="logo" alt="logo">          
+          <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-4"><img src="assets/img/Banner.png" class="logo" alt="logo"></div>
+              <div class="col-md-4"></div>
+          </div>
       </header>
       <!-- Sección menu de navegación -->
-      <section class="col-s-12 col- col-12"> 
+      <section class="col-12">
         <nav class="bg_blue">
           <div>
-            <ul class="menu_navegacion">
-              <li><a class="mover" href="index.html">PRODUCTOS</a></li>
-              <li><a class="mover" href="somos.html">QUIÉNES SOMOS</a></li>
-              <li><a class="mover" href="contacto.html">CONTACTO</a></li>
-              <li>
-                <form class="form-inline">                 
+            <ul class="menu_navegacion row">
+              <li class="col-md-2"><a class="mover" href="index.html">PRODUCTOS</a></li>
+              <li class="col-md-2"><a class="mover" href="somos.html">QUIÉNES SOMOS</a></li>
+              <li class="col-md-2"><a class="mover" href="contacto.html">CONTACTO</a></li>
+              <li class="col-md-5">
+                <form class="form-inline">
                   <input class="form-control mr-sm-2" type="search" placeholder="Buscar Productos" aria-label="Search">
                   <button class="btn btn-primary my-2 my-sm-0 bi bi-search" type="submit">Buscar</button>
                 </form>
-              </li>            
-            </ul> 
+              </li>
+            </ul>
           </div>
-        </nav>        
+        </nav>
       </section>
-      <!--Fin Sección menu de navegación -->   
-      
-      <!-- Seccion Galeria de fotos -->       
-      <section>      
+      <!--Fin Sección menu de navegación -->
+
+      <!-- Seccion Galeria de fotos -->
+      <section>
         <div class="row">
-                <div class="col-sm-6 col-12">
-                    <div class="container" >      
+                <div class="col-sm-6 col-12 bordercard">
+                    <div class="container" >
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
@@ -61,7 +65,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-12">
-                    <div class="container" >      
+                    <div class="container" >
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
@@ -76,7 +80,7 @@
                                         Tipo de teclado: Tipo isla
                                         Tipo de pantalla: IPS
                                         Tipo: Notebooks
-                                       intel Pentium Gold 4GB RAM 128GB <br><br></p>
+                                    intel Pentium Gold 4GB RAM 128GB <br><br></p>
                                     <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-primary">Agregar al Carrito</a></small></p>
                                 </div>
                               </div>
@@ -87,7 +91,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-12">
-                    <div class="container" >      
+                    <div class="container" >
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
@@ -111,7 +115,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-12">
-                    <div class="container" >      
+                    <div class="container" >
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
@@ -135,7 +139,6 @@
                     </div>
                 </div>
             </div>
-           
       </section>
       <!-- Fin de Seccion Galeria de fotos -->
       <!-- footer -->

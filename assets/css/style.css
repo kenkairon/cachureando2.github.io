@@ -1,3 +1,5 @@
+/*Carlos Gonzalez*/
+
 *{
     box-sizing:border-box;
 }
@@ -9,13 +11,19 @@ body{
 h1,h2,p{
     font-weight:bold;
 }
-#fondo{
-    background:#1E415E;    
+
+.card-body
+{
+    background-color: rgb(206, 201, 201);
+}
+
+#fondo{     
+    background:#e4dede;    
     border-top-left-radius: 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 5px;
-    box-shadow:3px 0px 23px 0px rgba(50, 128, 204, 0.74);
+    box-shadow:3px 0px 23px 0px rgba(172, 206, 240, 0.74);
 }
 .fondo_formulario{
     background:#FFC594;
@@ -108,7 +116,7 @@ footer p{
 }
 
 .bg_blue{
-    background-color: rgb(31, 49, 214);
+    background-color: rgb(173, 181, 253);
     border-radius:15px;   
 }
 .ul a{

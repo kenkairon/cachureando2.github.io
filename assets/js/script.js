@@ -106,6 +106,3 @@ const getRemainingTime = deadline => {
 // }elsif (edad >= 9 and edad <= 10){
 
 // }
-$(document).ready(function () {
-  $('#example').DataTable();
-});

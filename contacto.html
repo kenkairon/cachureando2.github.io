@@ -9,46 +9,52 @@
       <link rel="stylesheet" href="assets/css/media.css">
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-      <!--<script src="assets/js/jquery-3.6.0.min.js"></script>-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     </head>
     <body id="fondo">
       <header>
         <div id="banner">
           <div class="row">
               <div class="col-md-4"><img src="assets/img/Banner.png" class="logo" alt="logo"></div>
-              <div class="col-md-4 alert alert-primary bi bi-calendar2-week h6" role="alert" id="fecha">            
+              <div class="col-md-4 alert alert-secondary bi bi-calendar2-week h6" role="alert" id="fecha">            
               </div>
-              <div class="col-md-4  alert alert-success bi bi-clock h6" role="alert" id="reloj">
+              <div class="col-md-4 alert alert-dark bi bi-clock h6" role="alert" id="reloj">
             </div>
           </div>
-        </header>
+      </header>
+      <!-- Extra grande Contenedor máximo 1140px hasta ≥1200px la columna es col-xl***-->
+      <!-- Grande Contenedor máximo 960px hasta ≥992px  la columna es col-lg***-->
+      <!-- Medio 720px Contenedor máximo hasta ≥768px  la columna es col-md **-->
+      <!-- Pequeño 540px hasta ≥576px la columna es col-sm **-->
+      <!-- Muy Pequeño <576 px col-->
       <!-- Sección menu de navegación -->
-      <section class="col-12">
-        <nav class="bg_blue">
-          <div>
-            <ul class="menu_navegacion row">
-              <li class="col-md-2"><a class="mover" href="index.html">PRODUCTOS</a></li>
-              <li class="col-md-2"><a class="mover" href="somos.html">QUIÉNES SOMOS</a></li>
-              <li class="col-md-2"><a class="mover" href="contacto.html">CONTACTO</a></li>
-              <li class="col-md-2"><a class="mover" href="preguntas.html">EVALUACIÓN</a></li>
-              <li class="col-md-4"><a class="mover" href="estadistica.html">ESTADÍSTICA</a></li>
-                  <!-- <li class="col-md-3">
-                <form class="form-inline">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Buscar Productos" aria-label="Search">
-                  <button class="btn btn-primary my-2 my-sm-0 bi bi-search" type="submit">Buscar</button>
-                </form>
-              </li> -->
-            </ul>
-          </div>
-        </nav>
-      </section>
+        <section>
+          <nav class="bg_blue container-fluid">
+            <div class="row menu-navegacion">
+              <div class="col-xl-8 col-lg-6 col-md-7 col-sm-12 col-12">
+                <ul>
+                    <li class="linea"><a class="mover" href="index.html"><i class="bi bi-basket2"> </i>PRODUCTOS</a></li>
+                    <li class="linea"><a class="mover" href="somos.html"><i class="bi bi-people-fill"> </i>QUIENES SOMOS</a></li>
+                    <li class="linea"><a class="mover" href="contacto.html"><i class="bi bi-window-plus"> </i>CONTACTO</a></li>
+                    <li class="linea"><a class="mover"  href="preguntas.html"><i class="bi bi-question-square"></i> PREGUNTAS</a></li>
+                    <li class="linea"><a class="mover"  href="estadisticas.html"><i class="bi bi-reception-4"></i> ESTADÍSTICAS</a></li>
+                </ul>
+              </div>
+              <div class="col-xl-1 col-lg-2 col-md-1"></div>
+              <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
+              </div>
+            </div>
+          </nav>
+        </section>
       <!--Fin Sección menu de navegación -->
       <!--Sección de Formulario -->
-      <section class="fondo_formulario col-sm-6 container-fluid">
+      <section class="fondo_formulario col-sm-6 container">
         <article class="col-sm-12">
           <div class="row">
             <div class="col-md-12">
+              <hr>
               <h5>FORMULARIO DE CONTACTO</h5>
+              <hr>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Nombre de Usuario</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el usuario">
@@ -61,11 +67,19 @@
               <label for="exampleFormControlTextarea1" class="form-label">mensaje</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button class="btn btn-success">Enviar</button>
+            <button class="btn btn-info"><i class="bi bi-folder-symlink-fill"></i> Enviar</button><hr>
           </div>
         </article>
       </section>
       <!-- Fin de Sección de Formulario -->
+      <hr>
+      <section class="container-fluid">
+        <div class="row ">
+          <div class="col-xl-6"></div>
+          <div class="col-xl-3"><p>Contáctanos También</p></div>
+          <div class="col-xl-3"><a  class="btn btn-success" href="https://api.whatsapp.com/send?phone=56979347247"><i class="bi bi-whatsapp"></i>  Whatsapp</a></div>          
+        </div>
+      </section>
       <!-- footer -->
       <script src="assets/js/script.js"></script>
       <footer class="footer_config">

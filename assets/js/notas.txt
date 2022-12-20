@@ -1,5 +1,0 @@
-var miTitulo = document.querySelector('h1');
-miTitulo.innerHTML = '!Hola mundo!';
-
-devuelve el elemento que tiene el atributo ID con el valor especificado
-getElmentByid()

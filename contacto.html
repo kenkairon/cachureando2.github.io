@@ -16,9 +16,9 @@
         <div id="banner">
           <div class="row">
               <div class="col-md-4"><img src="assets/img/Banner.png" class="logo" alt="logo"></div>
-              <div class="col-md-4 alert alert-secondary bi bi-calendar2-week h6" role="alert" id="fecha">            
+              <div class="col-md-4 alert alert-primary bi bi-calendar2-week h6" role="alert" id="fecha">            
               </div>
-              <div class="col-md-4 alert alert-dark bi bi-clock h6" role="alert" id="reloj">
+              <div class="col-md-4 alert alert-success bi bi-clock h6" role="alert" id="reloj">
             </div>
           </div>
       </header>
@@ -47,6 +47,16 @@
           </nav>
         </section>
       <!--Fin Sección menu de navegación -->
+      <hr>
+      <!--Contáctanos por Whatsapp-->
+      <section class="container-fluid">
+        <div class="row ">
+          <div class="col-xl-6"></div>
+          <div class="col-xl-3"><p>Contáctanos También</p></div>
+          <div class="col-xl-3"><a  class="btn btn-success" href="https://api.whatsapp.com/send?phone=56979347247"><i class="bi bi-whatsapp"></i>  Whatsapp</a></div>          
+        </div>
+      </section>
+      <br>
       <!--Sección de Formulario -->
       <section class="fondo_formulario col-sm-6 container">
         <article class="col-sm-12">
@@ -55,35 +65,34 @@
               <hr>
               <h5>FORMULARIO DE CONTACTO</h5>
               <hr>
+          <form id="contact-form" name="contact-form" onsubmit="return validarFormulario()" action="contacto.html" method="GET">
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Nombre de Usuario</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el usuario">
+              <input type="name" class="form-control" id="name" name="name" placeholder="Ingrese el usuario">
             </div>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Correo</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el correo">
+              <input type="email" class="form-control" id="email" name="email"  placeholder="Ingrese el correo">
             </div>
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label">mensaje</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" id="message" name="message" rows="3"></textarea>
             </div>
             <button class="btn btn-info"><i class="bi bi-folder-symlink-fill"></i> Enviar</button><hr>
           </div>
+        </form>
         </article>
       </section>
-      <!-- Fin de Sección de Formulario -->
-      <hr>
-      <section class="container-fluid">
-        <div class="row ">
-          <div class="col-xl-6"></div>
-          <div class="col-xl-3"><p>Contáctanos También</p></div>
-          <div class="col-xl-3"><a  class="btn btn-success" href="https://api.whatsapp.com/send?phone=56979347247"><i class="bi bi-whatsapp"></i>  Whatsapp</a></div>          
-        </div>
-      </section>
+      <!-- Fin de Sección de Formulario -->    
       <!-- footer -->
+      <!-- Validar Formulario que viene de js-->
+      <script src="assets/js/validarformulario.js"></script>
+      <!-- Hora-->
       <script src="assets/js/script.js"></script>
       <footer class="footer_config">
         <p id="help">Equipo Scrum master © 2022</p>
       </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     </body>
 </html>

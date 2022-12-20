@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="assets/css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    </head>
   </head>
   <body id="fondo">
     <header>
@@ -18,77 +19,48 @@
             <div class="col-md-4"><img src="assets/img/Banner.png" class="logo" alt="logo"></div>
             <div class="col-md-4 alert alert-primary bi bi-calendar2-week h6" role="alert" id="fecha">            
             </div>
-            <div class="col-md-4  alert alert-success bi bi-clock h6" role="alert" id="reloj">
+            <div class="col-md-4 alert alert-success bi bi-clock h6" role="alert" id="reloj">
           </div>
         </div>
-      </header>
-    <!-- Sección menu de navegación -->
-    <section class="col-12">
-      <nav class="bg_blue">
-        <div>
-          <ul class="menu_navegacion row">
-            <li class="col-md-2"><a class="mover" href="index.html">PRODUCTOS</a></li>
-            <li class="col-md-2"><a class="mover" href="somos.html">QUIÉNES SOMOS</a></li>
-            <li class="col-md-2"><a class="mover" href="contacto.html">CONTACTO</a></li>
-            <li class="col-md-2"><a class="mover" href="preguntas.html">EVALUACIÓN</a></li>
-            <li class="col-md-4"><a class="mover" href="estadistica.html">ESTADÍSTICA</a></li>
-            
-                   <!-- <li class="col-md-3">
-                <form class="form-inline">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Buscar Productos" aria-label="Search">
-                  <button class="btn btn-primary my-2 my-sm-0 bi bi-search" type="submit">Buscar</button>
-                </form>
-              </li> -->
-            
-          </ul>
-        </div>
-      </nav>
-    </section>
+    </header>
+    <!-- Extra grande Contenedor máximo 1140px hasta ≥1200px la columna es col-xl***-->
+      <!-- Grande Contenedor máximo 960px hasta ≥992px  la columna es col-lg***-->
+      <!-- Medio 720px Contenedor máximo hasta ≥768px  la columna es col-md **-->
+      <!-- Pequeño 540px hasta ≥576px la columna es col-sm **-->
+      <!-- Muy Pequeño <576 px col-->
+      <!-- Sección menu de navegación -->
+      <section>
+        <nav class="bg_blue container-fluid">
+          <div class="row menu-navegacion">
+            <div class="col-xl-8 col-lg-6 col-md-7 col-sm-12 col-12">
+              <ul>
+                  <li class="linea"><a class="mover" href="index.html"><i class="bi bi-basket2"> </i>PRODUCTOS</a></li>
+                  <li class="linea"><a class="mover" href="somos.html"><i class="bi bi-people-fill"> </i>QUIENES SOMOS</a></li>
+                  <li class="linea"><a class="mover" href="contacto.html"><i class="bi bi-window-plus"> </i>CONTACTO</a></li>
+                  <li class="linea"><a class="mover"  href="preguntas.html"><i class="bi bi-question-square"></i> PREGUNTAS</a></li>
+                  <li class="linea"><a class="mover"  href="estadisticas.html"><i class="bi bi-reception-4"></i> ESTADÍSTICAS</a></li>
+              </ul>
+            </div>
+            <div class="col-xl-1 col-lg-2 col-md-1"></div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
+            </div>
+          </div>
+        </nav>
+      </section>
     <!--Fin Sección menu de navegación -->
     <!--Sección de Formulario -->
-   
-    <section class="fondo_formulario col-sm-6 container-fluid">
-    <label for="">
-        <h2>¿Que te parece mi página?</h2>
-    </label>
-      <div id="inputs">
-        <button value="Sobresaliente" onclick="contador"(this.value)">Sobresaliente</button><br><br>
-        <button value="Notable" onclick="contador"(this.value)">Notable</button><br><br>
-        <button value="Bien" onclick="contador"(this.value)">Bien</button><br><br>
-        <button value="Suficiente" onclick="contador"(this.value)">Suficiente</button><br><br>
-        <button value="Insuficiente" onclick="contador"(this.value)">Insuficiente</button><br><br>
-        <button value="Muydeficiente" onclick="contador"(this.value)">Muy deficiente</button><br><br>
+    <div class="container">
+      <h1>Cuestionario simple con JavaScript para Página Web</h1>
+      <div class="row alert alert-warning">
+          <div id="content" class="col-lg-12">
+
+          </div>
       </div>
-      <div id="divgraficas">
-        <div>
-          <Label><h3>Sobresaliente</h3></Label><br>
-            <div id="graficaSobre"></div>
-        </div>
-        <div>
-            <Label><h3>Notable</h3></Label><br>
-            <div id="graficaNota"></div>
-        </div>
-        <div>
-          <Label><h3>Bien</h3></Label><br>
-              <div id="graficaBien"></div>
-        </div>
-        <div>
-          <Label><h3>Suficiente</h3></Label><br>
-              <div id="graficaSufi"></div>
-        </div>
-        <div>
-          <Label><h3>Insuficiente</h3></Label><br>
-              <div id="graficaInsufi"></div>
-        </div>
-        <div>
-          <Label><h3>Muy Deficiente</h3></Label><br>
-              <div id="graficaMuydef"></div>
-        </div>
-      </div>
-    </section>
+
     <!-- Fin de Sección de Formulario -->
     <!-- footer -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/preguntas.js"></script>
     <footer class="footer_config">
       <p id="help">Equipo Scrum master © 2022</p>
     </footer>

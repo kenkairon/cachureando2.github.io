@@ -12,17 +12,17 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
       <script src="assets/js/jquery-3.6.0.min.js"></script>
     </head>
+    <!--Empieza el body-->
     <body id="fondo">
       <header>
-        <div id="banner">
           <div class="row">
-              <div class="col-md-4"><img src="assets/img/Banner.png" class="logo" alt="logo"></div>
-              <div class="col-md-4 alert alert-primary bi bi-calendar2-week h6" role="alert" id="fecha">            
+              <div class="col-md-6"><img src="assets/img/Banner.png" class="logo" alt="logo"></div>
+              <div class="col-md-3 alert alert-primary bi bi-calendar2-week h6" role="alert" id="fecha">
               </div>
-              <div class="col-md-4 alert alert-success bi bi-clock h6" role="alert" id="reloj">
+              <div class="col-md-3 alert alert-success bi bi-clock h6" role="alert" id="reloj">
             </div>
           </div>
-      </header>     
+      </header>
       <!-- Extra grande Contenedor máximo 1140px hasta ≥1200px la columna es col-xl***-->
       <!-- Grande Contenedor máximo 960px hasta ≥992px  la columna es col-lg***-->
       <!-- Medio 720px Contenedor máximo hasta ≥768px  la columna es col-md **-->
@@ -30,22 +30,21 @@
       <!-- Muy Pequeño <576 px col-->
       <!-- Sección menu de navegación -->
       <section>
-        <nav class="bg_blue container-fluid">
+        <nav class="bg_blue container-fluid col-sm-12">
           <div class="row menu-navegacion">
-            <div class="col-xl-8 col-lg-6 col-md-7 col-sm-12 col-12">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
               <ul>
-                  <li class="linea"><a class="mover" href="index.html"><i class="bi bi-basket2"> </i>PRODUCTOS</a></li>
-                  <li class="linea"><a class="mover" href="somos.html"><i class="bi bi-people-fill"> </i>QUIENES SOMOS</a></li>
-                  <li class="linea"><a class="mover" href="contacto.html"><i class="bi bi-window-plus"> </i>CONTACTO</a></li>
-                  <li class="linea"><a class="mover"  href="preguntas.html"><i class="bi bi-question-square"></i> PREGUNTAS</a></li>
-                  <li class="linea"><a class="mover"  href="estadisticas.html"><i class="bi bi-reception-4"></i> ESTADÍSTICAS</a></li>
+                  <li class="linea"><a class="mover btn-sm" href="index.html"><i class="bi bi-basket2 btn btn-primary btn-sm active"></i>PRODUCTOS </a></li>
+                  <li class="linea"><a class="mover btn-sm" href="somos.html"><i class="bi bi-people-fill "></i>QUIÉNES SOMOS </a></li>
+                  <li class="linea"><a class="mover btn-sm" href="contacto.html"><i class="bi bi-window-plus"></i>CONTACTO</a> </li>
+                  <li class="linea"><a class="mover btn-sm" href="preguntas.html"><i class="bi bi-question-square"></i>PREGUNTAS </a></li>
+                  <li class="linea"><a class="mover  btn btn-info btn-sm active"  href="estadisticas.html">ESTADÍSTICAS </a></li>
               </ul>
             </div>
-            <div class="col-xl-1 col-lg-2 col-md-1"></div>
-            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="col-xl-4  col-lg-4 col-md-4 col-sm-12 col-12">
               <form class="form-inline">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Buscar Productos" aria-label="Search">
-                  <button class="btn btn-primary my-2 my-sm-0 bi bi-search" type="submit"></button>
+                  <input class="form-control" type="search" placeholder="Buscar Productos" aria-label="Search">
+                  <button class="btn btn-primary bi bi-search" type="submit"></button>
               </form>
             </div>
           </div>
@@ -53,106 +52,101 @@
       </section>
       <!--Fin Sección menu de navegación -->
       <!-- Seccion Galeria de fotos -->
-      <section>
-        <div class="row">
-                <div class="col-sm-6 col-12">
-                    <div class="container" >
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/img/reloj.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Galaxy Watch4 Classic 46 mm Bluetooth</h5>
-                                    <p class="card-text">Características destacadas
-                                        Hecho en: Vietnam
-                                        Conexión Bluetooth: Sí
-                                        Recepción de llamadas: Sí
-                                        Información adicional: Procesador Exynos W920 (5nm), Sistema operativo Wear OS
-                                        Sistema operativo compatible: Android.</p>
-                                    <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-primary">Agregar al Carrito</a></small></p>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-12">
-                    <div class="container" >
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/img/note1.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Notebook Asus Laptop X415EA-EB1442WS intel Pentium Gold 4GB RAM 128GB SSD 14" FHD</h5>
-                                    <p class="card-text">Características destacadas
-                                        Velocidad del procesador: 2 GHz
-                                        Unidad óptica: No
-                                        Tipo de teclado: Tipo isla
-                                        Tipo de pantalla: IPS
-                                        Tipo: Notebooks
-                                    intel Pentium Gold 4GB RAM 128GB <br><br></p>
-                                    <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-primary">Agregar al Carrito</a></small></p>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-12">
-                    <div class="container" >
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/img/celu1.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">iphone 13 pro max</h5>
-                                    <p class="card-text">
-                                        Características destacadas
-                                        Condición del producto: Nuevo
-                                        Plazo de disponibilidad de repuestos: N/A
-                                        Producto Perecible: No
-                                        Plazo de disponibilidad de servicio técnico: N/A
-                                        Información adicional: Face ID. Trae nano-SIM y eSim.</p>
-                                        <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-primary">Agregar al Carrito</a></small></p>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-12">
-                    <div class="container" >
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                    <img src="assets/img/celu2.png" class="img-fluid rounded-start" alt="...">
-                                </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Smartphone Samsung Galaxy A53 5G 128GB</h5>
-                                    <p class="card-text">Características destacadas
-                                        Velocidad del procesador: 2.4 GHz x 2.0 GHz
-                                        Tipo de pantalla: Super AMOLED
-                                        Tipo: Smartphones
-                                        Tamaño de la pantalla: 6.5 pulgadas
-                                        Sistema operativo: Android
-                                        .</p>
-                                    <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-primary">Agregar al Carrito</a></small></p>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <section class="container-fluid-row">
+        <div class="row justify-content-md-center">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 alert alert-light bordeo">
+                <!-- Imagen 1-->
+                  <div class="col-xl-10 col-lg-12 col-md-6 ">
+                    <img src="assets/img/reloj.png" class="img-fluid rounded-start imaghover" alt="smartwatch">
+                  </div>
+                  <!-- Termina Imagen 1-->
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                <!--Card1-->
+                  <div class="card-body pergamino">
+                    <h5 class="card-title">Galaxy Watch4 Classic 46 mm Bluetooth</h5>
+                      <p class="card-text">Características destacadas
+                        Hecho en: Vietnam
+                        Conexión Bluetooth: Sí
+                        Recepción de llamadas: Sí
+                        Información adicional: Procesador Exynos W920 (5nm), Sistema operativo Wear OS
+                        Sistema operativo compatible: Android.
+                      </p>
+                      <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-primary btn-md">Agregar al Carrito</a></small></p>
+                  </div>
+              </div>
+              <!--Termina Card-->
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12  alert alert-light bordeo">
+                <!-- Imagen 1-->
+                <div class="col-xl-10 col-lg-12 col-md-6">
+                    <img src="assets/img/note1.png" class="img-fluid rounded-start imaghover" alt="Notebook">
+                  </div>
+                  <!-- Termina Imagen 1-->
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                <!--Card1-->
+                  <div class="card-body pergamino">
+                    <h5 class="card-title">Notebook Asus Laptop X415EA-EB1442WS intel Pentium Gold 4GB RAM 128GB SSD 14" FHD</h5>
+                    <p class="card-text">Características destacadas
+                        Velocidad del procesador: 2 GHz
+                        Unidad óptica: No
+                        Tipo de teclado: Tipo isla
+                        Tipo de pantalla: IPS
+                        Tipo: Notebooks
+                    intel Pentium Gold 4GB RAM 128GB <br><br></p>
+                    <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-primary">Agregar al Carrito</a></small></p>
+                  </div>
+              </div>
+              <!--Termina Card-->
+        </div>
+        <br>
+        <hr>
+        <div class="row justify-content-md-center">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12  alert alert-light bordeo">
+            <!-- Imagen 1-->
+            <div class="col-xl-10 col-lg-12 col-md-6">
+                <img src="assets/img/celu1.png" class="img-fluid rounded-start imaghover" alt="smartwatch">
+              </div>
+              <!-- Termina Imagen 1-->
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+            <!--Card1-->
+              <div class="card-body pergamino">
+                <h5 class="card-title">iphone 13 pro max</h5>
+                <p class="card-text">
+                    Características destacadas
+                    Condición del producto: Nuevo
+                    Plazo de disponibilidad de repuestos: N/A
+                    Producto Perecible: No
+                    Plazo de disponibilidad de servicio técnico: N/A
+                    Información adicional: Face ID. Trae nano-SIM y eSim.</p>
+                <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-primary">Agregar al Carrito</a></small></p>
+              </div>
+          </div>
+          <!--Termina Card-->
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12  alert alert-light bordeo">
+            <!-- Imagen 1-->
+            <div class="col-xl-10 col-lg-12 col-md-6">
+                <img src="assets/img/celu2.png" class="img-fluid rounded-start imaghover" alt="smartwatch">
+              </div>
+              <!-- Termina Imagen 1-->
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+            <!--Card1-->
+              <div class="card-body pergamino">
+                <h5 class="card-title">Smartphone Samsung Galaxy A53 5G 128GB</h5>
+                <p class="card-text">Características destacadas
+                    Velocidad del procesador: 2.4 GHz x 2.0 GHz
+                    Tipo de pantalla: Super AMOLED
+                    Tipo: Smartphones
+                    Tamaño de la pantalla: 6.5 pulgadas
+                    Sistema operativo: Android
+                    .</p>
+                <p class="card-text"><small class="text-muted"><a href="#" class="btn btn-primary">Agregar al Carrito</a></small></p>
+              </div>
+          </div>
+          <!--Termina Card-->
+    </div>
       </section>
       <!-- Fin de Seccion Galeria de fotos -->
       <!-- footer -->

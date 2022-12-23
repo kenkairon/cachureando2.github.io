@@ -1,12 +1,8 @@
 /*Carlos Gonzalez*/
 /*Carlos Vasquez */
-.banner
-{
-    
-}
+
 *{
     box-sizing:border-box;
-   
 }
 /* FUENTE DE LETRA DEL BODY */
 body{
@@ -16,24 +12,26 @@ body{
 h1,h2,p{
     font-weight:bold;
 }
-
 .card-body
 {
     background-color: rgb(206, 201, 201);
 }
-
+/*Configuracion de id fondo  */
 #fondo{
     background:#e4dede;
     border-top-left-radius: 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 5px;
+
 }
+/*Configuracion del fondo del formulario en contacto.html  */
 .fondo_formulario{
     background:#e6dcd4;
     border:dotted 1px;
     border-radius:5px;
 }
+/* Logo Principal Cachureando */
 .logo{
     width: 300px;
     height: 100px;
@@ -42,61 +40,40 @@ h1,h2,p{
     color: #febf10;
     border-radius:30px 25px 25px 30px;
 }
-/* FUENTE DE LETRA DEL NAV */
-/*nav {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: white;
-}*/
-/*Es un pseudoelemnto para cambiar de color LOS LINK a */
-
+/* Configuración del Nav de navegación o barra de link */
 nav{
     padding:5px;
     border-radius:3%;
 }
+
 ul{
-    display: inline-block;
-    margin-bottom:70px;
+    display: inline;
     border-radius:5%;
 }
 ul,li.linea{
-    padding-top: 10px;
+    padding: 0px;
+    margin:1px;
 }
 a.mover:hover{
 background-color:rgb(223, 174, 62);
-border-radius: 35px;
+border-radius: 25px;
 }
 .linea{
     display: inline;
 }
 .linea a{
     color: white;
-    margin-top:50px;
-    margin-right:20px;
-    margin-left:5px;
-    margin-bottom:30px;
-}
-li.linea{
-    padding-top: 10px;
+    margin:0;
 }
 /* Clase para poner COLOR a un TITULO */
 .algomas{
     color: chocolate;
 }
-/* COLOR EN LA CAJA DE DIV DE NAVEGACION Y CONFIGURACION DE BORDES Y COLOR DE FONDO  */
-/*div {
-    background-color: chartreuse;
-    border:1px dotted red;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px #000;
-    transform:rotate(0deg);
-    margin: 20px;
-}*/
 /* MENU DE NAVEGACION */
-
 .menu_navegacion a{
     padding:5px;
     color:rgb(255, 255, 255);
-    margin:5px;
+    margin:2px;
     display: inline-flex;
 }
 /* ARTICULO SOMOS */
@@ -107,9 +84,7 @@ li.linea{
     box-shadow: 3px 5px 5px 3px #000;
     transform:rotate(0deg);
     background:#e6dcd4;
-
 }
-
 /* FORMULARIO DEL EJERCICIO*/
 .form_principal{
     display:block;
@@ -120,8 +95,9 @@ li.linea{
     padding:5px;  
     border-radius:5px;
 }
+/*FORMULARIO DE BÚSQUEDA CON LA LUPA */
 .form-inline{
-    margin:5px
+    margin:0;
 }
 /*IMPUT DEL FORMULARIO */
 .block1,input{
@@ -134,6 +110,27 @@ li.linea{
     border: 1px dotted ;
     border-radius:15px;
 }
+
+/*Clase de la imagen con bordes */
+.bordeo{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+}
+/*clase bordes*/
+div.card-body.pergamino{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border:1px dotted blue;
+    padding-bottom:5px;
+}
+/* IMAGEN EN MOVIMIENTO INTERNO */
+.imaghover:hover{ 
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8);
+    -ms-transform:scale(0.8);
+     transform:scale(0.8)
+ }
 /* COLOR DEL FOOTER */
 footer{
 background-color: rgb(81, 80, 80);
@@ -156,8 +153,7 @@ footer p{
 
 nav.bg_blue{
     background-color: rgb(173, 181, 253);
-    border-radius:10px;
-    
+    border-radius:10px;    
 }
 .ul a{
     color: white

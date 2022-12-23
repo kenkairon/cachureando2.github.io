@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
         <!--Link css para datatables Página https://datatables.net/  Parte que dice CSS -->
         <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+        <!-- Hoja de estilos para responsividad de datatables-->
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.4.0/css/responsive.dataTables.min.css">
     </head>
     <body id="fondo">
         <header>
@@ -51,8 +53,8 @@
     <!--Fin Sección menu de navegación -->
     <!--Sección de Datatable -->
     <section class="container tablas">
-        <!-- Aca Sale el id = #example y se ejecuta en js/datatable.js -->
-        <table id="example" class="table table-striped table-hover table-bordered" style="width:100%">
+        <!-- Aca Sale el id = #example y se ejecuta en js/datatable.js, se agrega a class display nowrap para responsividad de tabla -->
+        <table id="example" class="table table-striped table-hover table-bordered display nowrap" cellspacing="0" style="width:100%">
             <thead class="table-secondary ">
                 <tr>
                     <th>Name</th>
@@ -550,5 +552,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+        <!-- Script de la para responsividad de datatable-->
+        <script src="https://cdn.datatables.net/responsive/2.4.0/js/dataTables.responsive.min.js"></script>
     </body>
 </html>

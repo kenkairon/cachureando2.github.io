@@ -6,7 +6,7 @@ let bien = "bien";
 let nota = "notable";
 let sobre = "sobresaliente"
 // if anidados
-let puntos = prompt('Que puntuación del 1 al 10 le pondrias a mi Página?');
+let puntos = prompt('¿Qué puntuación del 1 al 10 le pondrías a nuestra Página?');
 if (puntos == 0 || puntos <= 3 ) {
     document.getElementById('content').innerHTML = `<h2>La nota para mi página es ${puntos} y el resultado es ${def} <i class="bi bi-emoji-angry"></i><h2/>`;
 }else if (puntos == 4 ){

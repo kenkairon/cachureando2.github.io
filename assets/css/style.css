@@ -72,7 +72,7 @@ border-radius: 35px;
 /* ARTICULO SOMOS */
 .article_somos{
     height: 70vh;
-    width: 66vw;
+    width: 93vw;
     text-align: center;
     border:1px dotted ;
     border-radius: 10px;
@@ -139,4 +139,8 @@ footer p{
     margin: 0;
     list-style: none;    
 }
+.iframe{
+    display: flex;
+    align-items: stretch;
 
+}

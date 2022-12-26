@@ -93,9 +93,9 @@ border-radius: 25px;
 }
 .somos_links{
     display:grid;
-    width=1fr;
-    height=1fr; 
-    style=border:0;
+    width:1fr;
+    height:1fr; 
+    style:border:0;
 }
 /* FORMULARIO DEL EJERCICIO*/
 .form_principal{

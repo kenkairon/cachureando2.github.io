@@ -71,6 +71,8 @@ border-radius: 35px;
 }
 /* ARTICULO SOMOS */
 .article_somos{
+    height: 70vh;
+    width: 66vw;
     text-align: center;
     border:1px dotted ;
     border-radius: 10px;

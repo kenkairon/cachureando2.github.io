@@ -179,10 +179,5 @@ nav.bg_blue{
 .iframe{
     display: flex;
     align-items: stretch;
+    padding: auto;
 }
-[class^="col"]:nth-child(even){
-    background-color: teal;
-    }
-    [class^="col"]:nth-child(odd){
-    background-color: orange;
-    }

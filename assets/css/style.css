@@ -80,12 +80,22 @@ border-radius: 25px;
 }
 /* ARTICULO SOMOS */
 .article_somos{
+    height: 70vh;
+    width: 93vw;
+    width: 66vw;
     text-align: center;
     border:1px dotted ;
     border-radius: 10px;
     box-shadow: 3px 5px 5px 3px #000;
     transform:rotate(0deg);
     background:#e6dcd4;
+
+}
+.somos_links{
+    display:grid;
+    width=1fr;
+    height=1fr; 
+    style=border:0;
 }
 /* FORMULARIO DEL EJERCICIO*/
 .form_principal{
@@ -166,4 +176,8 @@ nav.bg_blue{
     margin: 0;
     list-style: none;    
 }
+.iframe{
+    display: flex;
+    align-items: stretch;
 
+}

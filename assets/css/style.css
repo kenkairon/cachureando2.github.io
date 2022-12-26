@@ -2,6 +2,8 @@
 /*Carlos Vasquez */
 
 *{
+    margin:0;
+    padding:0;
     box-sizing:border-box;
 }
 /* FUENTE DE LETRA DEL BODY */
@@ -133,7 +135,7 @@ div.card-body.pergamino{
  }
 /* COLOR DEL FOOTER */
 footer{
-background-color: rgb(81, 80, 80);
+background-color: rgb(96,108,136);;
 }
 footer p{
     color: rgb(255, 255, 255);

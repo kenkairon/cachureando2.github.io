@@ -12,7 +12,7 @@ if(puntos == null){
 }else if(puntos < 0){
     document.getElementById('content').innerHTML = `<h4><i class="bi bi-emoji-dizzy"></i> No se Permiten Números Negativos como  <a class="btn-sm btn-danger">${puntos}</a> Ingrese una Nota Valida Vuelva a Presionar el link <li class="linea"><a class="mover btn-danger btn-sm" href="preguntas.html">PREGUNTAS</a></li><h4/>`;
 }else if(puntos == ""){
-    document.getElementById('content').innerHTML = `<h4>No se Permiten Campos Vacíos <i class="bi bi-emoji-dizzy"></i> Ingrese una Nota Valida Vuelva a Presionar el link <li class="linea"><a class="mover btn-danger btn-sm" href="preguntas.html"><br>PREGUNTAS</a></li><h4/>`;
+    document.getElementById('content').innerHTML = `<h4>No se Permiten Campos Vacíos <i class="bi bi-emoji-dizzy"></i> Ingrese una Nota Valida Vuelva a Presionar el link <li class="linea"><a class="mover btn-danger btn-sm" href="preguntas.html">PREGUNTAS</a></li><h4/>`;
 }else if (puntos == 0 || puntos <= 3 ) {
     document.getElementById('content').innerHTML = `<h4>La nota para la página es <a class="btn-sm btn-danger">${puntos}</a> y el resultado es ${def} <i class="btn btn-outline-danger bi bi-emoji-angry"></i><h4/>`;
 }else if (puntos == 4 ){

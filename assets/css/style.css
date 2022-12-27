@@ -56,6 +56,9 @@ ul,li.linea{
     padding: 0px;
     margin:1px;
 }
+ul,li,a{
+    display:inline-block
+    }
 a.mover:hover{
 background-color:rgb(223, 174, 62);
 border-radius: 25px;

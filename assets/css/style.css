@@ -49,7 +49,6 @@ nav{
 }
 
 ul{
-    display: inline;
     border-radius:5%;
 }
 ul,li.linea{
@@ -83,22 +82,15 @@ border-radius: 25px;
 }
 /* ARTICULO SOMOS */
 .article_somos{
-    height: 70vh;
-    width: 93vw;
-    width: 66vw;
-    text-align: center;
-    border:1px dotted ;
+    height:100%;
+    width: 90%; 
+    max-width:100%;
+    text-align: center;    
     border-radius: 10px;
-    box-shadow: 3px 5px 5px 3px #000;
+    box-shadow: 3px 2px 2px 3px #000;
     transform:rotate(0deg);
     background:#e6dcd4;
 
-}
-.somos_links{
-    display:grid;
-    width:1fr;
-    height:1fr; 
-    style:border:0;
 }
 /* FORMULARIO DEL EJERCICIO*/
 .form_principal{
@@ -155,7 +147,7 @@ footer p{
     }
 /* CONFIGURACION DEL FOOTER */
 .footer_config{
-    margin: 20px;
+    margin: 15px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px rgb(49, 43, 43);
     transform:rotate(0deg);
@@ -165,7 +157,7 @@ footer p{
     margin:10px;
     padding:2px;
 }
-
+/* Barra de Navegación */
 nav.bg_blue{
     background-color: rgb(173, 181, 253);
     border-radius:10px;    
@@ -179,8 +171,8 @@ nav.bg_blue{
     margin: 0;
     list-style: none;    
 }
-.iframe{
-    display: flex;
-    align-items: stretch;
-    padding: auto;
+iframe{
+    border-radius:5px;
+    max-width:100%;
+    padding: 2px;
 }

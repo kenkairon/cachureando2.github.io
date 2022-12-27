@@ -8,7 +8,7 @@ let sobre = "sobresaliente"
 // if anidados
 let puntos = prompt('¿Qué puntuación del 1 al 10 le pondrías a nuestra Página?');
 if(puntos == null){
-    document.getElementById('content').innerHTML = `<h4>No se pudo completar la encuesta debido a que presionaste el botón <button class="btn-sm btn-danger">Cancelar</button> Refresca el sitio para intentar nuevamente <i class=""btn btn-outline-danger bi bi-heartbreak"></i> Vuelva a Presionar el link <li class="linea"><a class="mover btn-sm btn-danger" href="preguntas.html">PREGUNTAS</a></li><h4/>`;
+   document.getElementById('content').innerHTML = `<h4>No se pudo completar la encuesta debido a que presionaste el botón <button class="btn-sm btn-danger">Cancelar</button> Refresca el sitio para intentar nuevamente <i class=""btn btn-outline-danger bi bi-heartbreak"></i> Vuelva a Presionar el link <li class="linea"><a class="mover btn-sm btn-danger" href="preguntas.html">PREGUNTAS</a></li><h4/>`;
 }else if(puntos < 0){
     document.getElementById('content').innerHTML = `<h4><i class="bi bi-emoji-dizzy"></i> No se Permiten Números Negativos como  <a class="btn-sm btn-danger">${puntos}</a> Ingrese una Nota Valida Vuelva a Presionar el link <li class="linea"><a class="mover btn-danger btn-sm" href="preguntas.html">PREGUNTAS</a></li><h4/>`;
 }else if(puntos == ""){

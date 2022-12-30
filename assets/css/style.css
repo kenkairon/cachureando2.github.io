@@ -129,6 +129,15 @@ div.card-body.pergamino{
     border-bottom-right-radius: 30px;
     border:1px dotted blue;
     padding-bottom:5px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e2e2e2+14,dbdbdb+43,d1d1d1+66,fefefe+85 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e2e2e2+20,dbdbdb+43,d1d1d1+66,fefefe+95 */
+background: rgb(226,226,226); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(226,226,226,1) 20%, rgba(219,219,219,1) 43%, rgba(209,209,209,1) 66%, rgba(254,254,254,1) 95%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(226,226,226,1) 20%,rgba(219,219,219,1) 43%,rgba(209,209,209,1) 66%,rgba(254,254,254,1) 95%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(226,226,226,1) 20%,rgba(219,219,219,1) 43%,rgba(209,209,209,1) 66%,rgba(254,254,254,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
 }
 /* IMAGEN EN MOVIMIENTO INTERNO */
 .imaghover:hover{ 
